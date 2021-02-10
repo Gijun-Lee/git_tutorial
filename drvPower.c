@@ -1622,7 +1622,7 @@ void MDrv_PowerSaveSetFlagForStorage(PowerSaveIndi_t *pPsIndi)
     pPsIndi->Rvd            =0;
     pPsIndi->Strld          =0;
     pPsIndi->Aeon           =0;
-    pPsIndi->Gopg2          =0;
+    pPsIndi->Gopg2          =1;
 }
 
 ////////////////////////////////////////////////////////////////////////////////
